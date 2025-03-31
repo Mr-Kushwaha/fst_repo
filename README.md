@@ -119,3 +119,46 @@ To https://github.com/Mr-Kushwaha/repoFORpandas.git
 
 91790@??_KushwahaJI_?? MINGW64 ~/Documents/Add_file1by1 (main)
 </p>
+
+
+
+
+<p>
+<b>
+
+ERICSSON+ekusama@E-5CG2286KS6 MINGW64 ~
+$ git --version
+git version 2.49.0.windows.1
+
+ERICSSON+ekusama@E-5CG2286KS6 MINGW64 ~
+$ git config --global username "Aman Kushwaha"
+error: key does not contain a section: username
+
+ERICSSON+ekusama@E-5CG2286KS6 MINGW64 ~
+$ git config --global user.name "Aman Kushwaha"
+
+ERICSSON+ekusama@E-5CG2286KS6 MINGW64 ~
+$ git config --global user.email "amankus170@gmail.com"
+
+ERICSSON+ekusama@E-5CG2286KS6 MINGW64 ~
+$ git clone <https://github.com/Mr-Kushwaha/fst_repo~>
+bash: syntax error near unexpected token `newline'
+
+ERICSSON+ekusama@E-5CG2286KS6 MINGW64 ~
+$ git clone <https://github.com/Mr-Kushwaha/fst_repo.git>
+bash: syntax error near unexpected token `newline'
+
+ERICSSON+ekusama@E-5CG2286KS6 MINGW64 ~
+$ git clone https://github.com/Mr-Kushwaha/fst_repo.git
+Cloning into 'fst_repo'...
+remote: Enumerating objects: 19, done.
+remote: Counting objects: 100% (19/19), done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 19 (delta 4), reused 12 (delta 2), pack-reused 0 (from 0)
+Receiving objects: 100% (19/19), done.
+Resolving deltas: 100% (4/4), done.
+
+ERICSSON+ekusama@E-5CG2286KS6 MINGW64 ~
+$
+</b>
+</p>
